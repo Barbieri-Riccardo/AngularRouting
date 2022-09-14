@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-fruits',
-  templateUrl: './fruits.component.html',
-  styleUrls: ['./fruits.component.css']
+  templateUrl: './fruits-component.component.html',
+  styleUrls: ['./fruits-component.component.css']
 })
-export class FruitsComponent {
+export class FruitsComponentComponent {
   fruits = [
     { name: 'l3ineb', emoji: '🍇' },
     { name: 'btikha', emoji: '🍈' },
