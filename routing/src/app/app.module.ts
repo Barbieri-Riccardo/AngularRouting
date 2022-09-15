@@ -12,7 +12,7 @@ import { GenericComponent } from './generic/generic.component';
     AppComponent,
     FruitsComponentComponent,
     AnimalsComponentComponent,
-    GenericComponent
+    
   ],
   imports: [
     BrowserModule,

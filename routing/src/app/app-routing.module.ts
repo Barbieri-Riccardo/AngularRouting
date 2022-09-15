@@ -5,9 +5,10 @@ import { FruitsComponentComponent } from './fruits-component/fruits-component.co
 import { GenericComponent } from './generic/generic.component';
 
 const routes: Routes = [
+  { path: 'generic/:id', component: GenericComponent },
   { path: 'animals', component: AnimalsComponentComponent},
-  { path: 'fruits', component: FruitsComponentComponent},
-  { path: 'generic/:id', component: GenericComponent }
+  { path: 'fruits', component: FruitsComponentComponent}
+  
 ];
 
 @NgModule({
